@@ -4,6 +4,7 @@ const nextConfig = {
     // API_URL: "https://api-72eh5tvzn-shujas-projects-b040cbf4.vercel.app/",
 
     //If you wan to run your local api folder then need to uncomment this below line
+    
     // API_URL: "http://localhost:8000/graphql",
 
     API_URL: "https://goldbit.vercel.app",
