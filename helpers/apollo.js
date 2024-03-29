@@ -12,7 +12,8 @@ function createApolloClient() {
   return new ApolloClient({
     ssrMode: typeof window === "undefined",
     link: new HttpLink({
-      uri: "https://bigdeal-api-git-main-pixelstrapthemes.vercel.app/", // Server URL (must be absolute)
+      // uri: "https://bigdeal-api-git-main-pixelstrapthemes.vercel.app/", // Server URL (must be absolute)
+      uri: "https://goldbit.vercel.app/",
       credentials: "same-origin", // Additional fetch() options like `credentials` or `headers`
       fetch,
     }),
